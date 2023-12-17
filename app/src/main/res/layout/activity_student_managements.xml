@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:padding="16dp"
+    tool:context=".activity.studentManagementsActivity"
+    android:background="@android:color/background_light">
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome, Teacher!"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginBottom="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/addStudentButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/welcomeText"
+        android:layout_marginTop="16dp"/>
+
+<!--    =====================add student option below==================-->
+
+
+
+<!--    ===================================-->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/removeStudentButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Student"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/addStudentButton"
+        android:layout_marginTop="8dp"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/studentListText"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Student List:"-->
+<!--        android:textStyle="bold"-->
+<!--        android:textColor="@color/colorPrimary"-->
+<!--        android:layout_below="@id/removeStudentButton"-->
+<!--        android:layout_marginTop="16dp"/>-->
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:id="@+id/searchStudentLayout"-->
+<!--        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/studentListText"-->
+<!--        android:layout_marginTop="16dp">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            android:id="@+id/searchStudentEditText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:hint="Search Student"/>-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/studentRecyclerView"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/searchStudentLayout"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
+<!--        app:divider="@android:color/darker_gray"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/searchStudentLayout"/>-->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewStudentDetailsButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Student Details"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/removeStudentButton"
+        android:layout_marginTop="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewAttendanceButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Attendance"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/viewStudentDetailsButton"
+        android:layout_marginTop="16dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/viewAssignmentsButton"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Assignments"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/viewAttendanceButton"
+        android:layout_marginTop="8dp"/>
+
+</RelativeLayout>

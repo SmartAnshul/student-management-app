@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/homes"
+        android:title="Home"
+        android:icon="@drawable/ic_home"
+        />
+    <item android:id="@+id/academicsession"
+        android:title="Academic Session"
+        android:icon="@drawable/ic_academic"
+        />
+<!--    <item android:id="@+id/detail"-->
+<!--        android:title="Student Details"-->
+<!--        android:icon="@drawable/ic_home"-->
+<!--        />-->
+    <item android:id="@+id/rate"
+        android:title="Rate Us"
+        android:icon="@drawable/rating"
+        />
+    <item android:id="@+id/contact"
+        android:title="Contact Us"
+        android:icon="@drawable/phone"
+        />
+    <item android:id="@+id/compalin"
+        android:title="Complain"
+        android:icon="@drawable/complaint"
+        />
+    <item android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/information"
+        />
+    <item android:id="@+id/details"
+        android:title="details"
+        android:icon="@drawable/seo"
+        />
+</menu>

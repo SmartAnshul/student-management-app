@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:title="Student Management"
+        android:id="@+id/studentManagement"
+        android:icon="@drawable/postgraduate"/>
+    <item
+        android:title="Assignment"
+        android:id="@+id/assignment"
+        android:icon="@drawable/ic_assignment"/>
+    <item
+        android:title="Fees"
+        android:id="@+id/fees"
+        android:icon="@drawable/money"/>
+    <item
+        android:title="Library"
+        android:id="@+id/library"
+        android:icon="@drawable/ic_library"/>
+</menu>
